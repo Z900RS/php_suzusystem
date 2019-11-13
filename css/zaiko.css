@@ -1,0 +1,92 @@
+body {
+    width:60%;
+    padding:20px 5%;
+    margin:auto;
+}
+h1 {
+    text-align:center;
+    color: white;
+    /*background-color: #3c6690;*/
+    background: linear-gradient(#ffe003,#3e1d1d);
+    font-family: serif;
+}
+body {
+    background: linear-gradient(-84deg, grey,lightslategrey, white);
+}
+
+table{
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 0;
+}
+
+table th{
+    border-radius: 5px 5px 5px 5px;
+    border-right: 1px solid #3c6690;
+
+    text-align: center;
+    color:white;
+    background: linear-gradient(#ffe003,#3e1d1d);
+    border-left: 1px solid #3c6690;
+    border-top: 1px solid #3c6690;
+    border-bottom: 1px solid #3c6690;
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+    width: 10%;
+    padding: 10px 0px;
+    font-family: serif;
+}
+
+table td {
+    text-align: center;
+    border-left: 1px solid #a8b7c5;
+    border-bottom: 1px solid #a8b7c5;
+    border-top: none;
+    box-shadow: 0px -3px 5px 1px #eee inset;
+    width: 10%;
+    padding: 10px 10px 10px 10px;
+    color: #000000;
+    border-right: 1px solid #a8b7c5;
+    font-family: serif;
+
+}
+table tr:last-child td:first-child {
+    border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+    border-radius: 0 0 5px 0;
+}
+
+th.th1{
+    width: 30px;
+}
+
+div.login{
+    border: 2px solid #ffff00;
+    border-radius: 10px 5px 5px 5px;
+    width:400px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(70deg, green, white, red);
+
+}
+div.img{
+    width:400px;
+    padding: 10px;
+}
+h2{
+    font-family: Serif;
+}
+div.botan{
+
+    position: relative;
+    display: grid;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-left: solid 4px #668ad8;
+    border-right: solid 4px #668ad8;
+    color: #668ad8;
+    background: #e1f3ff;
+    transition: .4s;
+}
